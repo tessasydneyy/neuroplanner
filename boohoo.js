@@ -2,7 +2,7 @@
 
 var data;
 
-Papa.parse('https://xcxhdwh9-5500.use.devtunnels.ms/kittencore.csv', {
+Papa.parse('https://tessasydneyy.github.io/kittencore.csv', {
  header: true,
  download: true,
  dynamicTyping: true,
@@ -41,7 +41,7 @@ Papa.parse('https://xcxhdwh9-5500.use.devtunnels.ms/kittencore.csv', {
 
 var data;
 
-Papa.parse('https://xcxhdwh9-5500.use.devtunnels.ms/kittenstreams.csv', {
+Papa.parse('https://tessasydneyy.github.io/kittenstreams.csv', {
  header: true,
  download: true,
  dynamicTyping: true,
