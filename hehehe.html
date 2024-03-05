@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script  src="papaparse.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>the kittens project</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather|Open+Sans'><link rel="stylesheet" href="./haha.css">
+  <style>
+header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+body {
+  font-family: Merriweather, serif;
+}
+</style>
+</head>
+<body>
+    <div class="header">
+      <h1>YorkU Neuroscience</h1>
+    </div>
+<div style="width: 100%; max-width: 2100px; min-width: 2100px;">
+  <p style="height: 100px;"></p>
+  <h2 style="text-align: centre; position: relative; padding-left: 200px; padding-top: 0px; display:inline-block;">Courses</h2>
+  <h2 style="text-align: centre; position: relative; padding-left: 250px; padding-top: 0px; display:inline-block;">Four year plan</h2>
+  <button onclick="savedata()">meow</button>
+  <button onclick="loaddata()">meowmeow</button>
+  <div class="row">
+    <div class="column">  
+    <!--dropdown-->  
+    <div class="dropdown">
+      <button onclick="myFunction(), movefunction()" class="dropbtn">Core Classes</button>
+      <div id="myDropdown" class="dropdown-content">
+        <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+        <div id="classitem" class="container" style="width: 234px; background-color: white; border: none; margin: 0px 25px 0px 25px;">
+        </div>
+      </div>
+    </div>
+    <div class="dropdown" style="display: block; max-width: 300px;" id="listbot">
+      <button onclick="myFunction2()" class="dropbtn">Stream Classes</button>
+      <div id="myDropdown2" class="dropdown-content">
+        <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction2()">
+        <div id="streamitem" class="container" style="width: 234px; background-color: white; border: none; margin: 0px 25px 0px 25px;">
+        </div>
+      </div>
+    </div>  
+    </div>
+  
+
+  <div class="column2" id="column2">   
+  <div class="top">
+    <p style="writing-mode: vertical-rl; text-orientation: upright; padding-top: 65px;">Term 1</p>
+    <div class="container">
+      <p class="yrheader">Year one</p>
+    </div>
+    <div class="container">
+      <p class="yrheader">Year two</p>
+    </div>
+    <div class="container">
+      <p class="yrheader">Year three</p>
+    </div>
+    <div class="container">
+      <p class="yrheader">Year Four</p>
+    </div>
+  </div>
+  <div class="bot">
+    <p style="writing-mode: vertical-rl; text-orientation: upright; padding-top: 90px;">Term 2</p>
+    <div class="container">
+    </div>
+    <div class="container">
+    </div>
+    <div class="container">
+    </div>
+    <div class="container">
+   </div>  
+   </div>
+   </div>     
+  <div class="column3">
+  <p style="text-align: left; right: 115px;" id="totalcredits">Total Credits: /120</p>
+  <p style="text-align: left; right: 115px;" id="totalmcredits"> M&C Stream Credits:</p>
+  <p style="text-align: left; right: 115px;" id="totalbcredits"> B&C Stream Credits:</p>
+  <p style="text-align: left; right: 115px;" id="totalscredits"> Systems Stream Credits:</p>
+    <div class="datacon">
+      <p style="text-align:center; top: 0px; margin: 0px;">Class Profile</p>
+      <p id="idtext"></p>
+      <p id="nametext"></p>
+      <p id="creditstext"></p>
+      <p id="pretext"></p>
+      <p id="desctext"></p>
+    </div>
+</div> 
+</div> 
+<!--search boxes & draggable elements-->
+<script src="./hehe.js"></script>
+<!--creating class elements-->
+<script src="./boohoo.js"></script>
+<script src="./blob1.js"></script>
+<script src="./purrrr.js"></script>
+
+</div>
+</body>
+</html>
